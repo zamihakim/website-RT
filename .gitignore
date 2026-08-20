@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+server.log
+server.log.err
+
+# Sensitive
+aplikasi-rt/.env
+
+# Vendor
+aplikasi-rt/vendor/
+
+# Writable
+aplikasi-rt/writable/cache/*
+aplikasi-rt/writable/logs/*
+aplikasi-rt/writable/session/*
+aplikasi-rt/writable/uploads/*
+aplikasi-rt/writable/debugbar/*
+!aplikasi-rt/writable/*/index.html
+
+# IDE
+.idea/
+.vscode/
+*.iml
